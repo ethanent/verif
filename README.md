@@ -1,2 +1,8 @@
 # verif
-Straightforward, secure object validation in JS
+> Secure object validation in JS
+
+## Install
+
+```
+npm i verif
+```
