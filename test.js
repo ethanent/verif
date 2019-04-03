@@ -64,4 +64,31 @@ w.add('Validate array length and items', (res) => {
 	}
 })
 
+w.add('Validate object properties', (res) => {
+	const testV = new Validator({
+		'type': 'object',
+		'props': {
+			'a': {
+				'type': 'string',
+				'length': Range(2, 4)
+			},
+			'b': {
+				'type': 'string'
+			}
+		}
+	})
+
+	testV.test({
+		'a': 'hey',
+		'b': 'heyyyyyyyyyyy'
+	})
+
+	if (testV.validate({}).passed === true || testV.validate([2, 3]).passed === true || testV.validate({'a': 'sasadsad', 'b': 'dscxz'}).passed === true) {
+		res(false, 'Unexpected passage.')
+	}
+	else {
+		res(true, 'Properly handled bad data.')
+	}
+})
+
 w.test()
