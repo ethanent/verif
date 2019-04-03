@@ -1,6 +1,6 @@
 module.exports = class Validator {
-	constructor (expect) {
-		this.schema = expect
+	constructor (schema) {
+		this.schema = schema
 	}
 
 	validate (data, expect = this.schema, path = '/') {

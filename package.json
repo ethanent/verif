@@ -1,7 +1,7 @@
 {
   "name": "verif",
   "version": "1.0.0",
-  "description": "Secure object validation in JS",
+  "description": "Secure data validation in JS",
   "main": "index.js",
   "files": [
     "index.js",
