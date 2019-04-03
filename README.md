@@ -77,29 +77,37 @@ For all validations, a `type` must be specified.
 ### number
 
 - `Range` value
+
 	Permitted number value range
 
 ### string
 
 - `Range` length
+
 	Permitted string length range
 
 - `RegEx` test
+
 	Mandatory string regular expression test
 
 ### array
 
 - `Range` length
+
 	Permitted array length range
 
 - `schema` items
+
 	Schema for item testing
 
 ### object
 
 - `Object[schema]` props
+
 	Schemas for testing individual properties
 
 - `boolean` allowExtraProps
+
 	Permit the inclusion of additional properties not defined in `props`
+
 	Default: `false`
