@@ -1,6 +1,8 @@
 # verif
 > Secure data validation in JS
 
+[GitHub](https://github.com/ethanent/verif) | [NPM](https://www.npmjs.com/package/verif)
+
 ## Install
 
 ```
