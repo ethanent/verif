@@ -10,7 +10,7 @@ npm i verif
 ```
 
 ```js
-const {Validator, Range}
+const {Validator, Range} = require('verif')
 ```
 
 ## Usage
