@@ -72,6 +72,20 @@ const res = myValidator.validate({
 */
 ```
 
+### Create a range
+
+```js
+// new Range(min: number, max: number, inclusive: boolean)
+
+
+new Range(4, 7, false)
+// Exclusive range (4, 7)
+
+new Range(6, 10, true)
+new Range (6, 10)
+// Inclusive range [6, 10]
+```
+
 ## Properties of types
 
 For all validations, a `type` must be specified.

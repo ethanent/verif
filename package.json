@@ -14,7 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/ethanent/verif.git"
   },
-  "keywords": [],
+  "keywords": [
+    "data-validation",
+    "data",
+    "validation",
+    "schema",
+    "data-validate",
+    "validate",
+    "data-validator"
+  ],
   "author": "Ethan Davis",
   "license": "MIT",
   "bugs": {
